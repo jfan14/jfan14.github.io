@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    background-image: url(images/transparent_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    min-width: 250px;
+}
+
+.intro {
+    margin-left: 60px;
+    display: block;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.intro h1 {
+    font-family: Georgia, serif;
+    color: #34495E;
+    font-weight: bolder;
+    text-shadow: 2px 2px;
+    width: 50%;
+    float: left;
+}
+
+#mainMenu {
+    width: 50%;
+    font-family: sans-serif;
+    float: right;
+    list-style: none;
+}
+
+#mainMenu li {
+    display: inline-block;
+    margin-left: 20px;
+    border: 3px solid #000;
+    background-color: 
+}
+
+#mainMenu a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #34495E;
+    text-shadow: 2px 2px;
+    margin: 5px;
+}
+
+#mainMenu a:hover {
+    background-color: burlywood;
+}
+
+#portrait-container {
+    margin: 5px;
+    text-align: center;
+    min-width: 220px;
+}
+
+#portrait {
+    height: 235px;
+    width: 212px;
+    margin-top: 20px;
+    
+}
+
+.info {
+    border: 2px solid #000;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+#left {
+    margin: 5px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #000; 
+    width: 30%;
+    min-width: 370px;
+}
+
+#right {
+    margin: 5px;
+    margin-right: 140px;
+    width: 450px;
+    float: right;
+    width: 40%;
+    min-width: 200px;
+}
+
+#contact {
+    margin: 5px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+#name {
+    font-size: 30px;
+    color: #34495E;
+    text-shadow: 1px 1px;
+}
+
+h2 {
+    text-align: center;
+    color: #34495E;
+    margin-top: 10px;
+}
+
+#purpose {
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.fa fa-linkedin-square {
+    margin-top: 20px;
+}
+
+#email {
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 5px;
+}
+
+p {
+    margin-top: 10px;
+    color: #34495E;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*==============================================*/
+#resume {
+    margin-top: 10px;
+    text-align: center;
+}
+
+iframe {
+    width: 80%;
+    height: 750px;
+    
+}
