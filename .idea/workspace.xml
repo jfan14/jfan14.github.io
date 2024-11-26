@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb10c145-9857-4c8a-862b-35b47a4cb8e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/asset/color/color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image/Android_Studio_icon_(2023).svg.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image/kotlin-icon.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image/portrait.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image/portrait1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jun_Fan_Resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portrait.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/transparent_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    <list default="true" id="fb10c145-9857-4c8a-862b-35b47a4cb8e3" name="Changes" comment="Update website">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +67,24 @@
       <option name="presentableId" value="Default" />
       <updated>1732517380389</updated>
       <workItem from="1732517384952" duration="513000" />
-      <workItem from="1732517910507" duration="9394000" />
+      <workItem from="1732517910507" duration="10836000" />
     </task>
+    <task id="LOCAL-00001" summary="Update website">
+      <option name="closed" value="true" />
+      <created>1732586672256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732586672256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update website" />
   </component>
 </project>
