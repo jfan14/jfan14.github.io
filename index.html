@@ -1,48 +1,83 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Personal Blog</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div class="intro">
-            <h1>Frank's Tech Blog</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jun Fan Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="asset/image/portrait.JPG" alt="portrait" class="profile-pic">
+            <h1>Jun Fan</h1>
+            <p>Passionated software engineer</p>
             <nav>
-                <ul id="mainMenu">
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href='resume.html'>Resume</a></li>
-                    
-                </ul>
+                <a href="#about">About Me</a>
+                <a href="#tech-stack">Tech Stack</a>
+                <a href="#contact">Contact Me</a>
+                <a href="https://www.linkedin.com/in/junfan14/">Linkedin</a>
             </nav>
-        </div>
-        <div class="info">
-            <div id="left">
-                <p id="name">Jun Fan (Frank)</p>
-                <div id="portrait-container">
-                    <img id="portrait" src="images/portrait.png" alt="self portrait">
+        </header>
+
+        <main class="content">
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <hr class="divider">
+                <p>
+                    I am a software engineer focusing on native android development.
+                    I like playing soccer, and I love animals. I currently living in the beautiful city -- Chicago!
+                    I graduated from Illinois Institute of Technology with Bachelor's degree in Computer Science.
+                    I have two years working experience at Ford Motor Company developing Fordpass App which can help
+                    users to control their vehicles remotely. I wish I could find a job in software engineering field
+                    to help people resolve real-world problem.
+                </p>
+            </section>
+
+            <section id="tech-stack" class="section">
+                <h2>Tech Stack</h2>
+                <hr class="divider">
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <img src="asset/image/Android_Studio_icon_(2023).svg.JPG" alt="android studio icon" class="tech-icon">
+                        <p>Android Studio</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="asset/image/kotlin-icon.JPG" alt="kotlin icon" class="tech-icon">
+                        <p>Kotlin</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="asset/image/java-icon.JPG" alt="java icon" class="tech-icon">
+                        <p>Java</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="asset/image/retrofit-logo.JPG" alt="retrofit icon" class="tech-icon">
+                        <p>Retrofit</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="asset/image/restful-api.JPG" alt="restful icon" class="tech-icon">
+                        <p>Restful API</p>
+                    </div>
+
+                    <div class="tech-item">
+                        <img src="asset/image/jetpack-compose-icon.JPG" alt="jetpack icon" class="tech-icon">
+                        <p>Jetpack</p>
+                    </div>
                 </div>
-                <div>
-                    <a id="email" href="mailto:fanfrank2019@gmail.com">fanfrank2019@gmail.com</a>
-                    <p>(312)731-3081</p>
-                    <a id="linkedin" href="https://www.linkedin.com/in/junfan14/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
-                </div>
-            </div>
-            <div id="right">
-                <h2>Hi! I am Jun Fan</h2>
-                <p id="purpose">I am looking for a job as a software Developer</p>
-                <p>I graduated from Illinois Institute of Technology.</p>
-                <p>I have Bachelor's Degree of Computer Science.</p>
-                <p>I have three years' experience of Backend development.</p>
-                <p>Programming Languages: Java, Python, C, HTML, CSS</p>
-                <hr>
-                <h2>About this Website</h2>
-                <p>I want to find a job</p>
-                <p>Share my Resume</p>
-                
-            </div>
-        </div>
-    </body>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <hr class="divider">
+                <p>Phone: 3127313081</p>
+                <p>Email: fanfrank2019@gmail.com</p>
+            </section>
+        </main>
+    </div>
+</body>
 </html>
